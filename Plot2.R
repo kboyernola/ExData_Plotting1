@@ -26,7 +26,7 @@ if (!exists("febpower"))
 # Assumes that the data frame febpower is present
 x <- febpower$Date_Time
 y <- febpower$Global_active_power
-png("plot2.png",height=480,width=480)
+png("Plot2.png",height=480,width=480)
 plot(x,y,type="l",ylab="Global Active Power (kilowatts)",xlab="")
 dev.off()
 

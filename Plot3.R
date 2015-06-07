@@ -27,7 +27,7 @@ x <- febpower$Date_Time
 y1 <- febpower$Sub_metering_1
 y2 <- febpower$Sub_metering_2
 y3 <- febpower$Sub_metering_3
-png("plot3.png",height=480,width=480)
+png("Plot3.png",height=480,width=480)
 plot(x,y1,type="l",ylab="Energy sub metering",xlab="",ylim=c(0,40))
 par(new=TRUE)
 plot(x,y2,type="l",col="red",ylab="",xlab="",ylim=c(0,40))

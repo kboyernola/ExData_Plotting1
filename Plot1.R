@@ -22,7 +22,7 @@ if (!exists("febpower"))
     febpower$Sub_metering_3 <- as.numeric(as.character(febpower$Sub_metering_3))
 }
 ##Create the first plot
-png("plot1.png",height=480,width=480)
+png("Plot1.png",height=480,width=480)
 with(febpower,hist(Global_active_power,col="red",main="Global Active Power",xlab="Global Active Power (kilowatts)"))
 dev.off()
 
